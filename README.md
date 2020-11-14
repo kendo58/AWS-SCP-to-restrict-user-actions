@@ -1,0 +1,1 @@
+# AWS-SCP-to-restrict-user-actions
