@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Deny",
+            "Action": [
+                "lambda:UpdateFunctionCode",
+                "lambda:UpdateFunctionEventInvokeConfig",
+                "lambda:AddPermission",
+                "lambda:ListFunctions",
+                "lambda:UpdateFunctionConfiguration",
+                "lambda:DeleteFunctionEventInvokeConfig",
+                "lambda:DeleteFunction",
+                "lambda:RemovePermission",
+                "cloudwatch:DeleteDashboards",
+                "cloudwatch:EnableAlarmActions",
+                "cloudwatch:DeleteAlarms",
+                "cloudwatch:DisableAlarmActions",
+                "cloudwatch:DeleteInsightRules",
+                "cloudwatch:DisableInsightRules",
+                "cloudwatch:SetAlarmState",
+                "cloudwatch:DeleteAnomalyDetector",
+                "cloudwatch:ListMetrics"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
